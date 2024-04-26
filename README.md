@@ -29,6 +29,7 @@ package.json
 1. 创建一个新分支：git checkout -b gh-pages，注意，分支名必须为gh-pages
 2. 将分支push到仓库：git push -u origin gh-pages
 3. 切换到主分支: git checkout main
+4. 依次运行preview predeploy deploy 三个script
 
 ### Github 相关
 ![img.png](img.png)
