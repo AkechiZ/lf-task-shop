@@ -2,7 +2,7 @@ import { renderHook } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 import {useInstallments, useSubtotal, useTotalProducts} from '../src/hooks';
 describe('useTotalProducts hook', () => {
-    it('返回的数据应该是数字', () => {
+    it('商品数量应该是数字', () => {
         // renderHook 模拟hook执行环境
         const { result } = renderHook(() => useTotalProducts());
         console.log("result",result)
