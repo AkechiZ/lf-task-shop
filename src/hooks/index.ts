@@ -16,8 +16,8 @@ export const useProduct = () => {
         ],
         queryFn: () => {
             //本地运行
-            return nestService._getProducts({ sizes }, { sort });
-            // return productService.getProducts({ sizes }, { sort });
+            // return nestService._getProducts({ sizes }, { sort });
+            return productService.getProducts({ sizes }, { sort });
         },
         staleTime: 5000,
         retry: false,
